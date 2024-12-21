@@ -1,0 +1,120 @@
+/* General Reset */
+.container {
+  display: flex; /* or inline-flex */
+}
+body {
+  
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #87CEFA, #4682B4); /* Light blue gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.container {
+  display: flex; /* or inline-flex */
+}
+
+/* Box Container for the Weather App */
+.weather-box {
+  background: rgba(0, 0, 0, 0.1); /* Semi-transparent box */
+  backdrop-filter: blur(8px); /* Frosted glass effect */
+  border: 2px solid rgba(0, 0, 0, 0.3); /* Subtle border */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  width: 350px; /* Box width */
+  max-width: 90%; /* Responsive width for smaller screens */
+}
+
+/* Weather App Container Inside the Box */
+.weather-app {
+  .container {
+    display: flex; /* or inline-flex */
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.header .title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ceceb5;
+  text-shadow: 2px 2px 5px rgba(9, 8, 8, 0.5);
+}
+
+/* Weather Info Section */
+.weather-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather-info .location {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.weather-info .temperature {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FFD700; /* Golden color for temperature */
+  margin: 10px 0;
+  text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.6);
+}
+
+.weather-info .condition {
+  font-size: 1rem;
+  font-style: italic;
+  color: #c1c5aa;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Extra Info Section */
+.extra-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.extra-info .info-item {
+  text-align: center;
+}
+
+.extra-info .label {
+  font-size: 0.9rem;
+  color: #f0f0f0;
+}
+
+.extra-info .value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
